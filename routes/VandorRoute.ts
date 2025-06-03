@@ -44,7 +44,6 @@ router.get("/orders", GetOrders);
 router.put("/order/:id/process", ProcessOrder);
 router.get("/order/:id", GetOrderDetails);
 
-//Offers
 router.get("/offers", GetOffers);
 router.post("/offer", AddOffer);
 router.put("/offer/:id", EditOffer);
